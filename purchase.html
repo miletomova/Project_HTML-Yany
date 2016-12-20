@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles/style2.css"> 
+    <title>Team Fortress 2</title>
+	<meta charset="UTF-8">
+  </head>
+  <body>
+    <header></header>
+	<nav>
+	  <ul>
+	    <li><a href="Homepage.html">Home</a></li>
+	    <li><a class="marked" href="#">Purchase</a></li>
+	    <li><a href="artwork.html">Artwork</a></li>
+	    <li><a href="movies.html">Movies</a></li>
+	  </ul>
+	</nav>
+	<div id="pageContainer">
+	  <div id="div1">
+	    <h1>Registration</h1> 
+	    <form method="post" action="done.html">
+		  <p><label for="name">First Name</label></p>
+		  <input class="input" id="name" type="text" name="name" placeholder="your name here..."/>
+		  <p><label for="lname">Last Name</label></p>
+		  <input class="input" id="lname" type="text" name="lastname" placeholder="your last name here..."/>
+		  <p><label for="email">E-mail address</label></p>
+		  <input class="input" id="email" type="text" name="email" placeholder="your e-mail here..."/>
+		  <p><label for="pass">Password</label></p>
+		  <input class="input" id="pass" type="password" name="pass" placeholder="your password here..."/>
+		  <p><label for="rpass">Repeat password</label></p>
+		  <input class="input" id="rpass" type="password" name="rpass" placeholder="your password here..."/>
+		  <p>What copy of the game do you want?</p>
+		  <label for="chose1">Just the game</label>
+		  <input class="input" type="radio" name="copy" id="chose1" value="normal"/>
+		  <label for="chose2">Origin's Edition</label>
+		  <input class="input" type="radio" name="copy" id="chose2" value="origins"/>
+		  <label for="chose3">Collector's Edition</label>
+		  <input class="input" type="radio" name="copy" id="chose3" value="collectos"/>
+		  <p></p>
+		  <label for="check">I agree on terms of servise</label>
+		  <input class="input" type="checkbox" name="terms" id="check" value="servise"/>
+		  <p></p>
+		  <input id="submit1" type="submit" name="submit" value="Purchase"/>
+		</form>
+	  </div>
+	</div>
+	<footer><p id="p2">Yany|All Rights Reserved</p></footer>
+  </body>
+</html>

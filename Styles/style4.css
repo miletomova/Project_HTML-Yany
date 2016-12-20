@@ -1,0 +1,140 @@
+html, body, header, nav, footer, div, ul, li, a, form, input, textarea{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: url("../img/tf2h.jpg");
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-size: cover; 
+}
+li{
+	display: inline;
+    float: left;
+	position: relative;
+}
+body{
+	background-color:#2E2A27;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #d95f26;
+	height: 53px;
+	position: absolute;
+    top: 107px;
+	left: 5%;
+	right: 15%;
+    width: 80%;
+}
+li ul{
+	position: absolute;
+	
+}
+ li, a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	background-color: #d95f26;
+	text-align: center;
+	padding: 14px 16px;
+	height: 10px;
+	font-family: "Verdana,Ariel";
+}
+.marked{
+	color: #737373
+}
+footer{
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 50px;
+
+}
+#pageContainer {
+    background-image: url(http://media.steampowered.com/apps/tf2/blog/images/class_top_bg.jpg);
+	height: 4500px;
+	width: 100%;
+	background-size: 100% 5000px;
+}
+#div1{
+	background-color: #fff;
+	color: #000;
+	width: 55.3%;
+	position: absolute;
+	top: 160px;
+    left: 22%;
+	height: 4346px;
+}
+h1{
+	text-align: center;
+	font-family: "Verdana,Ariel";
+	color: #d95f26;
+}
+#vid1{
+	position: absolute;
+	top: 200px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid2{
+	position: absolute;
+	top: 800px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid3{
+	position: absolute;
+	top: 1400px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid4{
+	position: absolute;
+	top: 2000px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid5{
+	position: absolute;
+	top: 2600px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid6{
+	position: absolute;
+	top: 3200px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#vid7{
+	position: absolute;
+	top: 3800px;
+	left: 0%;
+	width: 100%; 
+	height: 500px;
+	border: 0;
+}
+#p2{
+	position: absolute;
+	top: 5%;
+	left: 45%;
+}

@@ -1,0 +1,87 @@
+html, body, header, nav, footer, div, ul, li, a, p{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-image: url("../img/tf2h.jpg");
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background-size: cover; 
+}
+li{
+	display: inline;
+    float: left;
+	position: relative;
+}
+body{
+	background-color:#2E2A27;
+}
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #d95f26;
+	height: 53px;
+	position: absolute;
+    top: 107px;
+	left: 5%;
+	right: 15%;
+    width: 80%;
+}
+ li, a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	background-color: #d95f26;
+	text-align: center;
+	padding: 14px 16px;
+	height: 10px;
+	font-family: Verdana,Ariel;
+}
+}
+.marked{
+	color: #737373
+}
+footer{
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	height: 50px;
+
+}
+#pageContainer {
+    background-image: url(http://media.steampowered.com/apps/tf2/blog/images/class_top_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+	height: 944px;
+}
+#div1{
+	background-color: #fff;
+	color: #000;
+	width: 52.3%;
+	position: absolute;
+	top: 160px;
+    left: 23.9%;
+	height: 784px;
+}
+h1{
+	text-align: left;
+	font-family: Verdana,Ariel;
+	color: #d95f26;
+}
+#p1{
+	text-align: center;
+	color: #737373;
+	font-family: Verdana,Ariel;
+}
+#p2{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+}
